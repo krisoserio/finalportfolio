@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/* Carousel Background Color */
+.background1{
+    background-color: #2C3540;
+    height: 40vh;
+    width: 100%;
+
+}
+.background2{
+    background-color: #000000;
+    height: 25vh;
+    width: 100%;
+
+}
+/* Carousel */
+.slide{
+    position: absolute;
+    margin-top: -15rem;
+}
+.slide img{
+    height: 56vh;
+}
+
+.carousel-indicators li{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #000000;
+}
