@@ -2,6 +2,16 @@
 margin: 0;
 padding: 0;
 }
+/* Navbar */
+.navbar-brand h4{
+    background: #8A99A6;
+    margin: 0;
+    padding: .5rem;
+}
+.navbar-toggler{
+    background: #8A99A6;
+}
+
 
 /* Carousel Background Color */
 .background1{
@@ -19,7 +29,8 @@ padding: 0;
 /* Carousel */
 .slide{
     position: absolute;
-    margin-top: -15rem;
+    margin-top: -16rem;
+    padding: 0;
 }
 .slide img{
     height: 56vh;
@@ -30,6 +41,57 @@ padding: 0;
     height: 15px !important;
     border-radius: 50%;
 }
-.carousel-indicators .active{
-    background-color: #000000;
+
+/* FOOTER */
+
+footer{
+    background: #282C2F;
+    bottom: 0;
+    
+}
+.footer-row{
+    
+    margin: 0;
+}
+.footer-col-1 .location{
+    text-align: center !important;
+}
+.row .col-3 i{
+    margin: 0;
+    margin-left: 1.5rem ;
+}
+.row .col-3{
+    margin: 0 !important;
+}
+
+.icons{
+    margin-top: .5rem;
+    margin-left: 6rem;
+}
+.icons i{
+    margin: .5rem;
+}
+
+.footer-col-2{
+    display: none;
+}
+span{
+    color: #f3f3f3;
+}
+.about-my-self{
+    color: #f3f3f3;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.map{
+    color:#f3f3f3;
+}
+p{
+    color: #f3f3f3;
+}
+.reserve{
+    padding-top: .5rem;
+    padding-left: 5.5rem;
+    border-top: 1px solid rgba(138,153,166,0.5);
+    height: 7vh;
 }
