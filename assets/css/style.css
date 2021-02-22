@@ -11,7 +11,18 @@ padding: 0;
 .navbar-toggler{
     background: #8A99A6;
 }
-
+/* button .toggler-icon {
+    
+    position: relative !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: url("../images/images.png") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer !important;
+    background-size: 30px !important;
+     
+} */
 
 /* Carousel Background Color */
 .background1{
@@ -95,3 +106,10 @@ p{
     border-top: 1px solid rgba(138,153,166,0.5);
     height: 7vh;
 }
+
+
+
+
+
+
+
