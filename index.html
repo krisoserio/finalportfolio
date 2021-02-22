@@ -70,41 +70,57 @@
     <div class="container">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="slide-image" src="assets/images/pexels-photo-574071.jpeg" class="d-block w-100" alt="...">
+          <img class="slide-image carousel-image1" src="assets/images/pexels-photo-574071.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
+            <div>
             <img class="profile" src="assets/images/profile.jpg" alt="">
+          </div>
+
+          <div class="text">
             <h5>Hello,</h5>
-            <p>Im Khristian B. Oserio<p>Im A Front End Web Developer</p></p>
+            <div>Im Khristian B. Oserio,
+            Im A Front End Web Developer</div>
+
 
             <div class="row">
-              <div class="col-6">
-                <div class="btn btn-primary">Hire Me</div>
+              <div class="col-6 carousel1">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
               </div>
 
-              <div class="col-6">
-                <div><a class="btn btn-success" href="#">Download CV</a></div>
+              <div class="col-6 carousel1">
+                <a class="btn btn-success" href="https://docs.google.com/document/d/128522tR-Bt39odxwCP02qORQ37ksd1sep3r71zUzCOM/edit" target="_blank">Download CV</a>
               </div>
             </div>
-
+          </div>
           </div>
         </div>
         <div class="carousel-item">
           <img class="slide-image" src="assets/images/pexels-photo-5926397.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
+            <div>
             <img class="profile" src="assets/images/profile.jpg" alt="">
+          </div>
+
+          <div class="text">
             <h5>Hello,</h5>
-            <p>Im Khristian B. Oserio<p>Im A Front End Web Developer</p></p>
+            <div>Im Khristian B. Oserio,
+            Im A Front End Web Developer</div>
+        
+
 
             <div class="row">
-              <div class="col-6">
-                <div class="btn btn-primary">Hire Me</div>
+              <div class="col-6 carousel1">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
               </div>
 
-              <div class="col-6">
-                <div><a class="btn btn-success" href="#">Download CV</a></div>
+              <div class="col-6 carousel1">
+                <div><a class="btn btn-success" href="https://docs.google.com/document/d/128522tR-Bt39odxwCP02qORQ37ksd1sep3r71zUzCOM/edit" target="_blank">Download CV</a>
+                </div>
               </div>
+
             </div>
-
+            
+          </div>
           </div>
         </div>
       </div>
@@ -132,7 +148,7 @@
     <div class="info">Gender: Male</div>
     <div class="info">Nationality: Filipino</div>
     <div class="info">Religion: Seventh Day Adventist</div>
-    <div class="about-button"><a class="btn btn-primary">Show More</a></div>
+    <div class="about-button"><a class="btn btn-primary" href="https://docs.google.com/document/d/128522tR-Bt39odxwCP02qORQ37ksd1sep3r71zUzCOM/edit" target="_blank">Show More</a></div>
   </div>
   </div>
 
@@ -182,34 +198,39 @@
   <!-- Contact Us -->
   <div>
     <div class="about-parallax">
-      <h3>Contact Us</h3>
+      <h3 id="contact">Contact Me</h3>
     </div>
   </div>
 
   <!-- Contact Us Content -->
   <div class="container contact-main">
+    <form action="https://formspree.io/f/xwkwjzgn"
+    method="POST">
     <div>
-      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Name" name="Name">
       <div class="contact-text">Name</div>
     </div>
 
     <div>
-      <input type="text" placeholder="example@gmail.com">
+      <input type="text" placeholder="example@gmail.com" name="Replyto">
       <div class="contact-text">Email Address</div>
     </div>
 
     <div>
-      <input type="text" placeholder="Subject">
+      <input type="text" placeholder="Subject" name="Subject">
       <div class="contact-text">Subject</div>
     </div>
 
     <div>
-      <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+      <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
     </div>
 
-    <a class="btn btn-primary">Send Message</a>
+    <button type="submit" class="btn btn-primary">Send Message</button>
 
+    
+  </form>
   </div>
+
 
 
   <!-- Footer --> 

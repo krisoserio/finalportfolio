@@ -24,30 +24,35 @@ padding: 0;
 /* Carousel Background Color */
 .background1{
     background-color: #2C3540;
-    height: 40vh;
+    height: 45vh;
     width: 100%;
 
 }
 .background2{
     background-color: #000000;
-    height: 25vh;
+    height: 35vh;
     width: 100%;
-
 }
+
 /* Carousel */
 .slide{
     position: absolute;
-    margin-top: -16rem;
+    margin-top: -18rem;
     padding: 0;
 }
+.slide .carousel-image1{
+    opacity: 0.2 !important;
+}
 .slide .slide-image{
-    height: 61vh;
+    height: 75vh;
     opacity: 0.5;
+    width: 100%;
 }
 .slide .profile{
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+    margin-top: -9rem;
 }
 
 .carousel-indicators li{
@@ -56,12 +61,16 @@ padding: 0;
     border-radius: 50%;
 }
 .carousel-caption{
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 .carousel-caption .btn-success{
     padding: .3rem;
     margin-top: 2px;
 }
+.slide .carousel1 a{
+    margin-top: 1rem;
+}
+
 /*  about */
 .about-parallax h3{
     text-align: center;
@@ -86,7 +95,7 @@ padding: 0;
     border-radius: 50%;
     margin-top: .5rem;
     margin-left: 30%;
-    
+    opacity: .9;
 }
 .about-content{
     margin-top: 2rem;
@@ -114,6 +123,7 @@ padding: 0;
 /* Projects CSS */
 .project-card{
     width: 100%;
+    background: #CCCED9;
 }
 
 /* Contact css */
@@ -125,9 +135,11 @@ padding: 0;
 }
 .contact-main input{
     width: 100%;
+    background: #CCCED9;
 }
 .contact-main textarea{
     width: 100%;
+    background: #CCCED9;
 }
 .contact-main .btn-primary{
     margin-left: 30%;
@@ -159,10 +171,11 @@ footer{
 
 .icons{
     margin-top: .5rem;
-    margin-left: 6rem;
+    margin-left: 4.5rem;
 }
 .icons i{
     margin: .5rem;
+    font-size: 2rem;
 }
 
 .footer-col-2{
@@ -189,8 +202,74 @@ p{
     height: 7vh;
 }
 
+@media only screen and (min-width: 414px){
 
+/* Carousel */
+.slide{
+    margin-top: -19.5rem;
+}
+/* Parallax */
+.about-parallax h3{
+    padding-top: 1.5rem;   
+}
 
+/* Contact css */
+.contact-main input{
+    padding: .5rem;
+}
+.contact-main .btn-primary{
+    margin-left: 35%;
+}
+
+}
+
+@media only screen and (min-width: 768px){
+
+    /* Carousel */
+.slide{
+    margin-top: -27.5rem;
+}
+.slide .slide-image{
+    margin-left: 3rem;
+}
+.slide .carousel-caption{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    margin-bottom: 2rem;   
+    height: 50vh;
+    width: 90%;
+    margin-left: -4rem;
+}
+.slide .profile{
+    width: 13rem;
+    height: 13rem;
+    margin-top: -2rem;
+}
+.slide .text h5{
+    font-size: 5rem;
+}
+.slide .text{
+    font-size: 2rem;
+    text-align: center;
+}
+.slide .text a{
+    font-size: 1.3rem;
+}
+
+/* Parallax */
+.about-parallax h3{
+    padding-top: 1.5rem;   
+}
+
+/* Contact css */
+.contact-main input{
+    padding: .5rem;
+}
+.contact-main .btn-primary{
+    margin-left: 35%;
+}
+
+}
 
 
 
