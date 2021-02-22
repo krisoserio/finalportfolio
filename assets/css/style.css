@@ -87,7 +87,7 @@ padding: 0;
     height: 10vh;
 }
 .about-card{
-    background-color: #C4C4C4; 
+    background-color: rgba(196, 196, 196, 0.6); 
 }
 .about img{
     width: 8rem;
@@ -110,7 +110,7 @@ padding: 0;
 
 /* Skill CSS */
 .skill-card{
-    background: #C4C4C4;
+    background-color: rgba(196, 196, 196, 0.6); 
     text-align: center;
 }
 .skill-icon i{
@@ -123,7 +123,7 @@ padding: 0;
 /* Projects CSS */
 .project-card{
     width: 100%;
-    background: #CCCED9;
+    background-color: rgba(204,206,217, 0.6); 
 }
 
 /* Contact css */
@@ -135,17 +135,32 @@ padding: 0;
 }
 .contact-main input{
     width: 100%;
-    background: #CCCED9;
+    background-color: rgba(204,206,217, 0.6); 
+    color: #f3f3f3;
+}
+.contact-main input::placeholder{
+    color: #f3f3f3;
 }
 .contact-main textarea{
     width: 100%;
-    background: #CCCED9;
+    background-color: rgba(204,206,217, 0.6); 
+    color: #f3f3f3;
+}
+.contact-main textarea::placeholder{
+    color: #f3f3f3;
+    padding-left: 4.5rem;
+    padding-top: 6rem;
+    font-size: 1.5rem;
 }
 .contact-main .btn-primary{
     margin-left: 30%;
     margin-bottom: 1rem;
     margin-top: .5rem;
 }
+.contact-main input{
+    padding: .5rem;
+}
+
 
 /* FOOTER */
 
@@ -155,7 +170,6 @@ footer{
     
 }
 .footer-row{
-    
     margin: 0;
 }
 .footer-col-1 .location{
@@ -220,6 +234,11 @@ p{
 .contact-main .btn-primary{
     margin-left: 35%;
 }
+.contact-main textarea::placeholder{
+    padding-left: 6rem;
+    padding-top: 6rem;
+    font-size: 1.5rem;
+}
 
 }
 
@@ -243,13 +262,13 @@ p{
 .slide .profile{
     width: 13rem;
     height: 13rem;
-    margin-top: -2rem;
+    margin-top: 1rem;
 }
 .slide .text h5{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .slide .text{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .slide .text a{
@@ -258,15 +277,145 @@ p{
 
 /* Parallax */
 .about-parallax h3{
-    padding-top: 1.5rem;   
+    font-size: 2.5rem;   
+}
+
+/* About */
+.about img{
+    margin-left: 40%;
+}
+.about-button{
+    margin-left: 39%;
+}
+.info{
+    font-size: 2rem;
+}
+.about-button a{
+    font-size: 1.5rem;
 }
 
 /* Contact css */
 .contact-main input{
     padding: .5rem;
+    font-size: 2rem;
 }
 .contact-main .btn-primary{
     margin-left: 35%;
+}
+.contact-main input::placeholder{
+    font-weight: lighter;
+}
+.contact-main textarea::placeholder{
+    padding-left: 12rem;
+    padding-top: 12rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.contact-main textarea{
+    font-size: 2rem;
+}
+.contact-text{
+    font-size: 2rem;
+}
+
+/* Footer */
+.footer-col-2{
+    display: grid;
+}
+.reserve {
+    padding-top: 1rem;
+    padding-left: 16rem;
+    font-size: 1.5rem;
+}
+.footer-col-1{
+    margin-top: 3rem;
+}
+.icons{
+    margin-top: 3rem;
+}
+
+}
+
+@media only screen and (min-width: 1024px){
+
+        /* Carousel */
+.slide{
+    margin-top: -36rem;
+}
+.slide .slide-image{
+    margin-left: 4rem;
+}
+.slide .carousel-caption{
+    margin-bottom: 2rem;   
+    height: 50vh;
+    width: 90%;
+    margin-left: -4rem;
+}
+.slide .profile{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+}
+
+/* Parallax */
+.about-parallax h3{
+    font-size: 2.5rem;
+    padding-top: 2.5rem;   
+}
+
+/* About */
+.about img{
+    margin-left: 40%;
+    height: 12rem;
+    width: 12rem;
+}
+.about-button{
+    margin-left: 43%;
+}
+.info{
+    font-size: 2rem;
+}
+
+/* Skills */
+.skill-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Contact css */
+.contact-main .btn-primary{
+    margin-left: 37%;
+    font-size: 2rem;
+}
+.contact-main textarea::placeholder{
+    padding-left: 20rem;
+    padding-top: 12rem;
+}
+
+/* Footer */
+.reserve {
+    padding-top: 1.5rem;
+    padding-left: 25rem;
+    font-size: 1.5rem;
+}
+.footer-col-1{
+    margin-top: 2rem;
+}
+.footer-col-1{
+    font-size: 1.5rem;
+}
+.footer-col-2 .about-my-self{
+    font-size: 2rem;
+}
+.footer-col-2{
+    font-size: 1.5rem;
+}
+.footer-col-2 p{
+    text-indent: 3rem;
+}
+.icons i{
+    font-size: 3rem;
 }
 
 }
