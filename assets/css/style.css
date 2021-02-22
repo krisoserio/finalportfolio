@@ -3,9 +3,7 @@ margin: 0;
 padding: 0;
 
 }
-/* body{
-    background-color: #2C3540;
-} */
+
 .main-background{
     background: #2C3540;
 }
@@ -22,18 +20,6 @@ padding: 0;
 .navbar-toggler{
     background: #8A99A6;
 }
-/* button .toggler-icon {
-    
-    position: relative !important;
-    width: 40px !important;
-    height: 40px !important;
-    background: url("../images/images.png") !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    cursor: pointer !important;
-    background-size: 30px !important;
-     
-} */
 
 /* Carousel Background Color */
 .background1{
@@ -129,6 +115,26 @@ padding: 0;
 .project-card{
     width: 100%;
 }
+
+/* Contact css */
+.contact-main{
+    margin-top: 1rem;
+}
+.contact-text{
+    color: #f3f3f3;
+}
+.contact-main input{
+    width: 100%;
+}
+.contact-main textarea{
+    width: 100%;
+}
+.contact-main .btn-primary{
+    margin-left: 30%;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
 /* FOOTER */
 
 footer{
