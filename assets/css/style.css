@@ -105,7 +105,7 @@ padding: 0;
 }
 .about-button{
     margin-top: .5rem;
-    margin-left: 30%;
+    margin-left: 32%;
 }
 
 /* Projects CSS */
@@ -118,6 +118,9 @@ padding: 0;
 }
 .project-button {
     text-align: center;
+}
+.project-button a{
+    font-size: 1.3rem;
 }
 
 /* Skill CSS */
@@ -232,6 +235,11 @@ p{
     padding-top: 1.5rem;   
 }
 
+/* About */
+.about-button{
+    margin-left: 35%;
+}
+
 /* Projects */
 .project-card2{
     margin-top: 1rem;
@@ -260,7 +268,7 @@ p{
     margin-top: -27.5rem;
 }
 .slide .slide-image{
-    margin-left: 3rem;
+    margin-left: 0rem;
 }
 .slide .carousel-caption{
     display: grid;
@@ -359,7 +367,7 @@ p{
     margin-top: -36rem;
 }
 .slide .slide-image{
-    margin-left: 4rem;
+    margin-left: 0rem;
 }
 .slide .carousel-caption{
     margin-bottom: 2rem;   
@@ -446,7 +454,7 @@ p{
 margin-top: -17.5rem;
 }
 .slide .slide-image{
-margin-left: 12rem;
+margin-left: 0rem;
 }
 .carousel-indicators{
     margin-left: 23rem;
