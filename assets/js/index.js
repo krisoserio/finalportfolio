@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
     $('.toggle').click(function(){
-        $('.toggle').css('background','url(../images/close.png)');
+        
+            const toggleMenu = document.querySelector('.toggle');
+            toggleMenu.classList.toggle('active');
     });
 });
