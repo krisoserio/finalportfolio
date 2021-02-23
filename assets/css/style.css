@@ -108,6 +108,18 @@ padding: 0;
     margin-left: 30%;
 }
 
+/* Projects CSS */
+.project-card{
+    width: 100%;
+    background-color: rgba(204,206,217, 0.6); 
+}
+.project-card2{
+    margin-top: 1rem;
+}
+.project-button {
+    text-align: center;
+}
+
 /* Skill CSS */
 .skill-card{
     background-color: rgba(196, 196, 196, 0.6); 
@@ -118,12 +130,6 @@ padding: 0;
 }
 .skill-icon .skills{
     font-weight: bold;
-}
-
-/* Projects CSS */
-.project-card{
-    width: 100%;
-    background-color: rgba(204,206,217, 0.6); 
 }
 
 /* Contact css */
@@ -167,7 +173,6 @@ padding: 0;
 footer{
     background: #282C2F;
     bottom: 0;
-    
 }
 .footer-row{
     margin: 0;
@@ -227,6 +232,11 @@ p{
     padding-top: 1.5rem;   
 }
 
+/* Projects */
+.project-card2{
+    margin-top: 1rem;
+}
+
 /* Contact css */
 .contact-main input{
     padding: .5rem;
@@ -239,6 +249,7 @@ p{
     padding-top: 6rem;
     font-size: 1.5rem;
 }
+
 
 }
 
@@ -292,6 +303,11 @@ p{
 }
 .about-button a{
     font-size: 1.5rem;
+}
+
+/* Projects */
+.project-card2{
+    margin-top: 0;
 }
 
 /* Contact css */
@@ -382,6 +398,9 @@ p{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.skills{
+    font-size: 2rem;
+}
 
 /* Contact css */
 .contact-main .btn-primary{
@@ -420,6 +439,96 @@ p{
 
 }
 
+@media only screen and (min-width: 1025px){
+
+    /* Carousel */
+.slide{
+margin-top: -17.5rem;
+}
+.slide .slide-image{
+margin-left: 12rem;
+}
+.carousel-indicators{
+    margin-left: 23rem;
+}
+
+/* Parallax */
+.about-parallax h3{
+font-size: 2.5rem;
+padding-top: .5rem;   
+}
+
+/* About */
+.about img{
+margin-left: 40%;
+height: 12rem;
+width: 12rem;
+}
+.about-button{
+margin-left: 45%;
+font-size: 1rem;
+}
+.about-button a{
+font-size: 1rem;
+}
+.info{
+font-size: 1.5rem;
+}
+.about-content{
+    margin-top: 1rem;
+}
+
+/* Skills */
+.skill-card{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+    }
+.skills{
+font-size: 2rem;
+}
+
+/* Contact css */
+.contact-main input{
+    width: 50%;
+    font-size: 1.2rem;
+}
+.contact-main textarea{
+    height: 35vh;
+}
+.contact-main .btn-primary{
+margin-left: 40%;
+font-size: 1.5rem;
+}
+.contact-main textarea::placeholder{
+padding-left: 25rem;
+padding-top: 6rem;
+}
+  
+/* Footer */
+.reserve {
+padding-top: .5rem;
+padding-left: 35rem;
+}
+.footer-col-1{
+margin-top: 1rem;
+}
+.footer-col-1{
+font-size: 1.5rem;
+}
+.footer-col-2 .about-my-self{
+font-size: 2rem;
+}
+.footer-col-2{
+font-size: 1.5rem;
+}
+.icons i{
+font-size: 3rem;
+}
+.icons{
+    margin-left: 12rem;
+}
+
+}
 
 
 
