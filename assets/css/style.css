@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 *{
 margin: 0;
 padding: 0;
@@ -11,14 +13,48 @@ padding: 0;
 /* Navbar */
 .main-navbar{
     background: #CCCED9;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.main-navbar h4{
+    font-family: 'Orbitron';
 }
 .navbar-brand h4{
     background: #8A99A6;
     margin: 0;
     padding: .5rem;
 }
-.navbar-toggler{
+/* .navbar-toggler{
     background: #8A99A6;
+} */
+.toggle-background{
+    background: #8A99A6;
+    width: 40px;
+    height: 40px;
+}
+.main-navbar .toggle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url('../images/navbar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-navbar .toggle::before{
+    content: "menu";
+    position: absolute;
+    right: 40px;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    display: none;
+    letter-spacing: 2px;
+    font-size: 14px;
 }
 
 /* Carousel Background Color */
@@ -26,7 +62,6 @@ padding: 0;
     background-color: #2C3540;
     height: 45vh;
     width: 100%;
-
 }
 .background2{
     background-color: #000000;
@@ -296,7 +331,7 @@ p{
 
 /* Parallax */
 .about-parallax h3{
-    font-size: 2.5rem;   
+    font-size: 3rem;   
 }
 
 /* About */
@@ -324,19 +359,21 @@ p{
     font-size: 2rem;
 }
 .contact-main .btn-primary{
-    margin-left: 35%;
+    margin-left: 38%;
+    font-size: 1.5rem;
 }
 .contact-main input::placeholder{
     font-weight: lighter;
 }
 .contact-main textarea::placeholder{
     padding-left: 12rem;
-    padding-top: 12rem;
+    padding-top: 8rem;
     font-size: 2rem;
     font-weight: 100;
 }
 .contact-main textarea{
     font-size: 2rem;
+    height: 30vh;
 }
 .contact-text{
     font-size: 2rem;
@@ -380,6 +417,12 @@ p{
     height: 15rem;
     margin-top: 1rem;
     border-radius: 30px;
+}
+.carousel1-1{
+    margin-left: -35px;
+}
+.carousel1-2 a{
+    margin-right: -76px;
 }
 
 /* Parallax */
@@ -535,6 +578,7 @@ font-size: 3rem;
 .icons{
     margin-left: 12rem;
 }
+
 
 }
 
