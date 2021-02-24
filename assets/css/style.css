@@ -14,7 +14,7 @@ font-family: 'Playfair';
 
 /* Navbar */
 .main-navbar{
-    background: #CCCED9;
+    background-color: rgba(204,206,217, 0.9); 
     position: fixed;
     width: 100%;
     z-index: 5;
@@ -423,15 +423,8 @@ p{
     transform: translateX(-390px);
 }
 .main-glass li{
-    visibility: hidden;
-    list-style: none;
     font-size: 2.5rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    transition: 0.5s;
-    transition-delay: calc(0.15s * var(--i));
 }
-
 
     /* Carousel */
 .slide{
@@ -534,6 +527,54 @@ p{
 
 @media only screen and (min-width: 1024px){
 
+     /* Navbar */
+ .main-navbar h4{
+    font-size: 2.5rem;
+}
+.toggle-background{
+   width: 65px;
+   height: 65px;
+   position: relative;
+   right: -20rem;
+}
+.main-navbar .toggle{
+   width: 65px;
+   height: 65px;
+}
+.glass{
+   position: absolute;
+   margin-top: 3.3rem;
+   height: 85vh;
+}
+
+.main-glass .show{
+   margin-top: 3.5rem;
+   width: 42rem;
+   height: 85vh;
+}
+.main-glass .nav-list{
+   text-align: center;
+   margin-top: 12rem;
+   margin-right: -760px;
+}
+.main-glass .show li{
+   transform: translateX(-390px);
+}
+.main-glass li{
+   font-size: 2.5rem;
+}
+.main-navbar .toggle::before{
+    display: grid;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-right: 1.7rem;
+    background: #8A99A6;
+    text-align: center;
+    font-family: 'Orbitron';
+    color: #000000;
+    padding: .1rem;
+}
+
         /* Carousel */
 .slide{
     margin-top: -36rem;
@@ -558,6 +599,9 @@ p{
 }
 .carousel1-2 a{
     margin-right: -76px;
+}
+.background1{
+    height: 52vh;
 }
 
 /* Parallax */
@@ -625,7 +669,56 @@ p{
 
 }
 
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 1366px){
+
+     /* Navbar */
+.main-navbar{
+    height: 4rem;
+}
+.main-navbar h4{
+   font-size: 1.5rem;
+}
+.toggle-background{
+   width: 45px;
+   height: 45px;
+   position: relative;
+   right: -34rem;
+}
+.main-navbar .toggle{
+   width: 45px;
+   height: 45px;
+}
+.glass{
+   position: absolute;
+   margin-top: 2.5rem;
+   height: 85vh;
+}
+
+.main-glass .show{
+   margin-top: 2rem;
+   width: 42rem;
+   height: 90vh;
+}
+.main-glass .nav-list{
+   text-align: center;
+   margin-top: 5rem;
+   margin-right: -760px;
+}
+.main-glass .show li{
+   transform: translateX(-390px);
+}
+.main-glass li{
+   font-size: 2rem;
+}
+.main-navbar .toggle::before{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    background: #8A99A6;
+    text-align: center;
+    font-family: 'Orbitron';
+    color: #000000;
+    padding: .1rem;
+}
 
     /* Carousel */
 .slide{
@@ -635,7 +728,24 @@ margin-top: -17.5rem;
 margin-left: 0rem;
 }
 .carousel-indicators{
-    margin-left: 23rem;
+    margin-left: 13rem;
+}
+.background1{
+    height: 55vh;
+}
+.slide .profile{
+    width: 12rem;
+    height: 12rem;
+}
+.slide .text h5{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.slide .text{
+    font-size: 1.3rem;
+}
+.slide .text a{
+    font-size: 1.3rem;
 }
 
 /* Parallax */
@@ -646,9 +756,9 @@ padding-top: .5rem;
 
 /* About */
 .about img{
-margin-left: 40%;
-height: 12rem;
-width: 12rem;
+margin-left: 42%;
+height: 10rem;
+width: 10rem;
 }
 .about-button{
 margin-left: 45%;
