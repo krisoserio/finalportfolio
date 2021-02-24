@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
 margin: 0;
 padding: 0;
+font-family: 'Playfair';
 
 }
 
@@ -32,6 +34,8 @@ padding: 0;
     background: #8A99A6;
     width: 40px;
     height: 40px;
+    position: relative;
+    right: -68px;
 }
 .main-navbar .toggle{
     position: relative;
@@ -67,11 +71,43 @@ padding: 0;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    
 }
 .main-navbar .active::before{
     content: "close";
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+/* Nav Glass CSS */
+.glass{
+    display: none;
+}
+
+.main-glass .show{
+    display: grid;
+    width: 20rem;
+    height: 85vh; 
+    right: 0;
+    position: absolute;
+    z-index: 6;
+    margin-top: 2.1rem;
+    background: transparent;
+    backdrop-filter: blur(40px);
+}
+.glass .nav-list li{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+   
+}
+.glass .nav-list{
+    text-align: center;
+    margin-top: 5rem;
+}
+.glass .nav-list a{
+    text-decoration: none;
+    color: #f3f3f3 !important;
 }
 
 /* Carousel Background Color */
@@ -271,7 +307,7 @@ p{
 }
 .reserve{
     padding-top: .5rem;
-    padding-left: 5.5rem;
+    padding-left: 6rem;
     border-top: 1px solid rgba(138,153,166,0.5);
     height: 7vh;
 }
@@ -310,6 +346,13 @@ p{
     font-size: 1.5rem;
 }
 
+/* Footer */
+.reserve{
+    padding-left: 7rem;
+}
+.icons{
+    margin-left: 5.5rem;
+}
 
 }
 
