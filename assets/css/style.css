@@ -113,7 +113,6 @@ font-family: 'Playfair';
     visibility: hidden;
     list-style: none;
     font-size: 1.5rem;
-    font-weight: bold;
     margin-top: 2rem;
     transition: 0.5s;
     transition-delay: calc(0.15s * var(--i));
@@ -252,6 +251,7 @@ font-family: 'Playfair';
     width: 100%;
     background-color: rgba(204,206,217, 0.6); 
     color: #f3f3f3;
+    border-color: rgba(0,0,0,.6);
 }
 .contact-main textarea::placeholder{
     color: #f3f3f3;
@@ -721,6 +721,10 @@ p{
     color: #000000;
     padding: .1rem;
 }
+.nav-list ul li:hover{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
 
     /* Carousel */
 .slide{
@@ -733,7 +737,10 @@ margin-left: 0rem;
     margin-left: 13rem;
 }
 .background1{
-    height: 55vh;
+    height: 60vh;
+}
+.background2{
+    height: 40vh;
 }
 .slide .profile{
     width: 12rem;
