@@ -14,10 +14,11 @@ font-family: 'Playfair';
 
 /* Navbar */
 .main-navbar{
-    background-color: rgba(204,206,217, 0.9); 
+    background-color: #8A99A6; 
     position: fixed;
     width: 100%;
     z-index: 5;
+    border-bottom: solid 1px rgba(0,0,0,.6);
 }
 .main-navbar h4{
     font-family: 'Orbitron';
@@ -149,6 +150,7 @@ font-family: 'Playfair';
     height: 8rem;
     border-radius: 50%;
     margin-top: -9rem;
+    opacity: 0.8;
 }
 
 .carousel-indicators li{
