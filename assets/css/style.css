@@ -733,6 +733,9 @@ margin-top: -17.5rem;
 .slide .slide-image{
 margin-left: 0rem;
 }
+.slide .carousel-caption{
+    margin-left: -145px;
+}
 .carousel-indicators{
     margin-left: 13rem;
 }
